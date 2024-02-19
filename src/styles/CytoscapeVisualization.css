@@ -1,5 +1,28 @@
-.container {
+.second-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #131313;
+}
+
+.visualization-container {
+    width: 80%;
     max-width: 800px;
-    margin: 50px auto;
-    text-align: center;
+    height: 400px;
+    background-color: #21252c;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.visualization-header {
+    color: #fdee2d;
+}
+
+.loading-text {
+    color: #fdee2d;
+    font-size: 24px;
+    margin-top: 20px;
 }
